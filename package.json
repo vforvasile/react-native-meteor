@@ -1,6 +1,6 @@
 {
-  "name": "@xvonabur/react-native-meteor",
-  "version": "1.4.5",
+  "name": "rn-meteor",
+  "version": "1.5.0",
   "description": "Full Meteor Client for React Native",
   "main": "src/Meteor.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xvonabur/react-native-meteor.git"
+    "url": "git+https://github.com/vforvasile/rn-meteor.git"
   },
   "keywords": [
     "ddp",
@@ -22,11 +22,10 @@
   "author": "Kelly Copley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xvonabur/react-native-meteor/issues"
+    "url": "https://github.com/vforvasile/rn-meteor/issues"
   },
-  "homepage": "https://github.com/xvonabur/react-native-meteor#readme",
+  "homepage": "https://github.com/vforvasile/rn-meteor#readme",
   "dependencies": {
-    "@react-native-community/netinfo": "^4.4.0",
     "@xvonabur/minimongo-cache": "^0.1.2",
     "base-64": "^0.1.0  ",
     "crypto-js": "^3.1.9-1",
@@ -49,6 +48,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "^0.60.0"
+    "react-native": "^0.60.0",
+    "@react-native-community/async-storage": "^1.6.3",
+    "@react-native-community/netinfo": "^4.4.0"
   }
 }
